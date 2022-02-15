@@ -1,0 +1,13 @@
+<h2>Area of a Rectangle</h2>
+    <div class="formelement">
+    Length=<input type="text" [(ngModel)]="length"> Meters <br/>
+    </div>
+    <div class="formelement">
+    Breadth=<input type="text" [(ngModel)]="breadth"> Meters <br/>
+    </div>
+    <div class="formelement">
+        <input type="button" (click)="onCalculate()" value="Calculate Area"> <br/>
+    </div>
+    <div class="formelement">
+    Area=<input type="text" [value]="area"> Meter<sup>2</sup>
+    </div>
